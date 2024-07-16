@@ -1,0 +1,195 @@
+:root {
+    --main-color: #009ad8;
+}
+
+body {
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+
+.navbg {
+    background-color: #1E202B !important;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h1>span {
+    font-size: 10px;
+
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-y: 0.0rem;
+    --bs-nav-link-color:white;
+}
+
+.liactive {
+    border-color: var(--main-color);
+}
+
+li {
+    padding: 5px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    margin-left: 10px ;
+
+}
+
+li:hover {
+
+    border-color: var(--main-color);
+
+}
+
+li:hover a,
+li a:hover {
+    color: var(--main-color) !important;
+}
+
+.navbar-dark,
+.navbar[data-bs-theme=dark] {
+    --bs-navbar-active-color: var(--main-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.m-main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    padding-top: 2rem;
+    font-size: 18px;
+}
+
+.deg {
+    font-size: 90px;
+    color: white;
+}
+
+.deg span {
+    font-size: 68px;
+    vertical-align: 35%;
+
+}
+.row-main{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+num {
+    font-size: 24px;
+    color: white;
+}
+
+num span {
+    vertical-align: 30%;
+}
+
+num+p,
+img+p {
+    color: #0d6efd;
+}
+
+
+.temp {
+    font-size: 16px;
+    color: #bfc1c8;
+}
+
+.w-33 {
+    width: 33.3333333%;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+::placeholder {
+    color: #757575 !important;
+}
+
+.logo h1 {
+    font-size: 16px;
+}
+
+.logo span {
+    font-size: 10px;
+
+}
+
+.bg-img {
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+
+div.v {
+    padding: 0px 10px;
+    background-color: #2D303D;
+}
+
+div.b {
+    padding: 0px 10px;
+    background-color: #222530;
+}
+
+.btn-search {
+    border: 0;
+    position: absolute;
+    top: 4px;
+    right: 15px;
+    bottom: 4px;
+    padding: 0 40px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.col-lg-3>a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    text-align: center;
+    color: #0d6efd;
+    transition: 0.3s all ease-in;
+
+    font-size: 1.4285714286em;
+}
+
+.col-lg-3>a>i {
+    transform: translateY(25%);
+}
+
+.col-lg-3 a:hover {
+    background: #009ad8;
+    color: white;
+}
+
+.bg-main {
+    background-color: #323544;
+}
+
+.bg-2 {
+    background-color: #262936;
+}
+
+p,
+span,
+h2 {
+    color: white;
+}
